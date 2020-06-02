@@ -1,0 +1,100 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Conor Montalbano's Website</title>
+        <style>
+    body {
+        background: rgb(160,82,45);
+        color: rgb(0, 255, 255);
+        padding: 10px;
+        font-family: arial;
+    }
+    header {
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+    #all-contents {
+        max-width: 800px;
+        margin: auto;
+    }
+
+    /* navigation menu */
+    nav {
+        background: rgb(255,160,122);
+        margin: 0 auto;
+        margin-bottom: 20px;
+        display: flex;
+        padding: 10px;
+        border: 2px solid red;
+        border-radius: 25px;
+    }
+    nav header {
+        display: flex;
+        align-items: center;
+        color: rgb(0, 255, 255);
+        flex: 1;
+    }
+    nav ul {
+        list-style-image: none;
+    }
+    nav li {
+        display: inline-block;
+        padding: 0 10px;
+    }
+    nav a {
+        text-decoration: none;
+        color: rgb(0, 255, 255);
+    }
+
+    /* main container area beneath menu */
+    main {
+        background: rgb(255,160,122);
+        display: flex;
+    }
+    .sidebar {
+        margin-right: 25px;
+        padding: 10px;
+    }
+    .sidebar img {
+        width: 200px;
+    }
+    .content {
+        flex: 1;
+        padding: 15px;
+    }
+    .interests header {
+        font-size: 1.25em;
+    }
+</style>
+    </head>
+    <body>
+      <div id="all contents">
+          <nav>
+              <header>Conor's Wacky Website</header>
+              <ul>
+                  <il><a href="index.html">Home</a></il>
+                  <il><a href="portfolio.html">Portfolio</a></il>
+              </ul>
+          </nav>
+          
+          <main>
+              <div class="sidebar">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSTUYvYTiuCt141qKngeixF0h8CugcpVrWv8g3hOBF5PN4uwj2V&usqp=CAU">
+              </div>
+              
+              <div class="content">
+                  <header>Conor Montalbano</header>
+                  <p>Student at Ponchatoula High School.</p>
+                  <section class="interests"
+                  <header>Interests</header>
+                  <ul>
+                      <li>Video Games</li>
+                      <li>Football</li>
+                      <li>Cartoons</li>
+                  </ul>
+                  </section>
+              </div>
+          </main>
+      </div>  
+    </body>
+</html>
