@@ -29,7 +29,7 @@
         ////////////////////////////////////////////////////////////////////////
         // ALL YOUR CODE GOES BELOW HERE ///////////////////////////////////////
         createPlatform(150, 480, .5);
-        createPlatform(500, 370, .2);
+        createPlatform(500, 370, .3);
         createPlatform(200, 300, .4)
         
        
