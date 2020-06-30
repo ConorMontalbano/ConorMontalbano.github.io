@@ -26,6 +26,32 @@ var level01 = function (window) {
         game.setDebugMode(true);
 
         // BEGIN EDITING YOUR CODE HERE
+        function createSpider(x, y) {
+        var hitZoneSize = 25;
+        var damageFromObstacle = 10;
+        var sawBladeHitZone = game.createObstacle(hitZoneSize, damageFromObstacle);
+        sawBladeHitZone.x = x
+        sawBladeHitZone.y = y
+        game.addGameItem(sawBladeHitZone);
+        var obstacleImage = draw.bitmap('img/Spider.png');
+        sawBladeHitZone.addChild(obstacleImage);
+        obstacleImage.x = -50;
+        obstacleImage.y = -23;
+        obstacleImage.scaleX = .1;
+        obstacleImage.scaleY = .1;
+        
+        }
+        createSpider(490, 360);
+        createSpider(400, 360);
+        createSpider(900, 450);
+        
+        
+
+        
+        
+
+
+
 
         
         
